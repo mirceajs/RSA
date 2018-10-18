@@ -1,0 +1,26 @@
+{
+  "name": "rsa-app",
+  "version": "1.0.0",
+  "description": "RESTful Web service",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cross-env NODE_ENV=test ./node_modules/.bin/babel-tape-runner ./app/tests/test-*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-tape-runner": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "co": "^4.6.0",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.3",
+    "g": "^2.0.1",
+    "gulp": "^3.9.1",
+    "jsonwebtoken": "^8.3.0",
+    "nodemon": "^1.18.4",
+    "promise": "^8.0.1",
+    "supertest": "^3.1.0",
+    "tape": "^4.9.1",
+    "xlsx": "^0.14.0"
+  }
+}
